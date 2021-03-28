@@ -1,16 +1,17 @@
-This app does following:
-    - Fetch the XML from given URL
-    - Parse the XML and download the first DLTINS zip file given
-    - Extract the XML from the file
-    - Convert the XML file to CSV file
-
-Things couldn't be done due to time crunch
-    - Use file streaming instead of directly loading everthing into memory
-    - Write unit tests
-    - Store CSV into S3
+## This app does following:
+- Fetch the XML from given URL
+- Parse the XML and download the first DLTINS zip file given
+- Extract the XML from the file
+- Convert the XML file to CSV file
 
 
-How to run:
+## Things couldn't be done due to time crunch:  
+- Use file streaming instead of directly loading everthing into memory
+- Write unit tests
+- Store CSV into S3
+
+
+## How to run:
 1. Install dependencies
 ```bash
 $ pip install -r requirements.txt
